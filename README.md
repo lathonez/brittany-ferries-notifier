@@ -52,16 +52,16 @@ You can run this project in Docker for easy deployment (e.g. on a server or with
 
 1. **Build the Docker image:**
    ```bash
-   docker build -t britanny-ferries-cabin-notifier .
+   docker build -t brittany-ferries-cabin-notifier .
    ```
 2. **Run the container with your .env file:**
    ```bash
-   docker run --rm --env-file .env britanny-ferries-cabin-notifier
+   docker run --rm --env-file .env brittany-ferries-cabin-notifier
    ```
 
 ## Running on a Schedule (crontab)
 
 To run the script every hour (10 past given brittany ferries update on the hour) using Docker and cron, add this to your crontab:
 ```
-10 * * * * docker run --rm --env-file /path/to/.env britanny-ferries-cabin-notifier
+10 * * * * docker run --rm --env-file /path/to/.env brittany-ferries-notifier
 ```
