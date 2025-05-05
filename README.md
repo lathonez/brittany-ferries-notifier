@@ -25,7 +25,8 @@ python main.py
 The script will:
 - Fetch the PDF from Brittany Ferries
 - Parse its contents
-- Display the first 500 characters of the extracted text
+- Print whether or not there is a cabin available according to your configuration
+- Send an email notification if configured
 
 ## Environment Variables
 
